@@ -1,5 +1,5 @@
 {
-  "name": "@confluentinc/kafka-javascript",
+  "name": "@loancrate/kafka-javascript",
   "version": "0.5.2",
   "description": "Node.js bindings for librdkafka",
   "librdkafka": "2.6.1",
@@ -11,7 +11,7 @@
     "build": "node-gyp build",
     "test": "make test",
     "install": "node-pre-gyp install --fallback-to-build",
-    "install-from-source": "npm ci && node-pre-gyp install --build-from-source=@confluentinc/kafka-javascript --fallback-to-build",
+    "install-from-source": "npm ci --ignore-scripts && node-pre-gyp install --build-from-source=@loancrate/kafka-javascript --fallback-to-build",
     "prepack": "node ./ci/prepublish.js",
     "test:types": "tsc -p ."
   },
@@ -19,7 +19,7 @@
     "module_name": "confluent-kafka-javascript",
     "module_path": "./build/{configuration}/",
     "package_name": "{module_name}-v{version}-{node_abi}-{platform}-{libc}-{arch}.tar.gz",
-    "host": "https://github.com/confluentinc/confluent-kafka-javascript/releases/download/",
+    "host": "https://github.com/loancrate/confluent-kafka-javascript/releases/download/",
     "remote_path": "v{version}"
   },
   "keywords": [
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:confluentinc/confluent-kafka-javascript.git"
+    "url": "git@github.com:loancrate/confluent-kafka-javascript.git"
   },
   "license": "MIT",
   "devDependencies": {

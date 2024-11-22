@@ -11,7 +11,7 @@ metadata:
 spec:
   visibility: private
   repository:
-    url: git@github.com:confluentinc/confluent-kafka-javascript.git
+    url: git@github.com:loancrate/confluent-kafka-javascript.git
     run_on:
     - branches
     - tags

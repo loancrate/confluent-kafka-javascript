@@ -11,7 +11,7 @@ metadata:
 spec:
   visibility: public
   repository:
-    url: git@github.com:confluentinc/confluent-kafka-javascript.git
+    url: git@github.com:loancrate/confluent-kafka-javascript.git
     run_on:
     - forked_pull_requests
     pipeline_file: .semaphore/semaphore.yml
